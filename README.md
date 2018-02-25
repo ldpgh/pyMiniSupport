@@ -6,9 +6,10 @@ pip install git+https://github.com/ldpgh/pyMiniSupport.git
 
 ## Short description of the functions
 If the package colorama is installed the loggin functions are
-  info -> default color
-  warn -> yellow
-  error -> red
+- info -> default color (bright)
+- warn -> yellow
+- error -> red
+
 according their meaning.
 
 ### Functions for logging
