@@ -22,7 +22,22 @@ according their meaning.
 * prog_file_line
 
 ## Use case ... see simple test run
-```pyMiniSupport>>
+```
+pyMiniSupport>>
+pyMiniSupport>>python -c "from pyMiniSupport.Log import *;  warn('one liner warns you')"
+
+WARNING  @  <module>:1   'one liner warns you'
+
+pyMiniSupport>>python -c "from pyMiniSupport.Log import *;  error('one liner informs about error')"
+
+ERROR  @  <module>:1   'one liner informs about error'
+
+pyMiniSupport>>python -c "from pyMiniSupport.Log import *;  info('one liner informs you')"
+
+INFO  @  <module>:1   'one liner informs you'
+
+pyMiniSupport>>
+pyMiniSupport>>
 pyMiniSupport>>python -c "import pyMiniSupport.Tests.testLog"
 
 runTest (pyMiniSupport.Tests.testLog.TestLog) ...
@@ -44,5 +59,6 @@ Ran 1 test in 0.047s
 
 OK
 
+pyMiniSupport>>
 pyMiniSupport>>
 ```
