@@ -9,7 +9,5 @@ setup(
    version='1.0',
    description='The module contains helper functions needed in my projects.',
    author='ldpgh',
-#   author_email='foomail@foo.com',
-   packages=['pyMiniSupport'],  #same as name
-#   install_requires=['bar', 'greek'], #external packages as dependencies
+   packages=['pyMiniSupport']
 )
