@@ -6,7 +6,7 @@ from setuptools import setup
 
 setup(
    name='pyMiniSupport',
-   version='1.0',
+   version='1.0.1',
    description='The module contains helper functions needed in my projects.',
    author='ldpgh',
    packages=['pyMiniSupport']
