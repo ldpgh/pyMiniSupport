@@ -3,6 +3,9 @@
 # Copyright (c) 2018 ldpgh  All rights reserved
 
 from setuptools import setup
+import sys
+
+sys.dont_write_bytecode=True
 
 setup(
    name='pyMiniSupport',
