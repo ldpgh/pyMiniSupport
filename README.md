@@ -1,2 +1,2 @@
 # pyMiniSupport
-It contains all the helper functions needed in most of my projects.
+The module contains helper functions needed in my projects.
