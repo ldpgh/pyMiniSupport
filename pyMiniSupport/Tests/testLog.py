@@ -9,9 +9,9 @@ import pyMiniSupport
 import pyMiniSupport.Log
 class TestLog(unittest.TestCase):
   def runTest(self):
-    print(""); pyMiniSupport.Log.info("test of pyMiniSupport.info")
-    print(""); pyMiniSupport.Log.warn("test of pyMiniSupport.warn")
-    print(""); pyMiniSupport.Log.error("test of pyMiniSupport.error")
+    print(""); pyMiniSupport.Log.info("test of pyMiniSupport.Log.info()")
+    print(""); pyMiniSupport.Log.warn("test of pyMiniSupport.Log.warn()")
+    print(""); pyMiniSupport.Log.error("test of pyMiniSupport.Log.error()")
     print(""); print(pyMiniSupport.Log.prog_line())
     print(""); print(pyMiniSupport.Log.prog_file())
     print(""); print(pyMiniSupport.Log.prog_file_line())
@@ -20,9 +20,9 @@ class TestLog(unittest.TestCase):
 from pyMiniSupport.Log import *
 class TestLogShort(unittest.TestCase):
   def runTest(self):
-    print(""); info("test of pyMiniSupport.info")
-    print(""); warn("test of pyMiniSupport.warn")
-    print(""); error("test of pyMiniSupport.error")
+    print(""); info("test of info()")
+    print(""); warn("test of warn()")
+    print(""); error("test of error()")
     print(""); print(prog_line())
     print(""); print(prog_file())
     print(""); print(prog_file_line())
