@@ -5,6 +5,7 @@
 import inspect
 
 #........1.........2.........3.........4.........5.........6.........7.........8
+## import package colorama, if not installed functions get basic implementation
 try:
   import colorama
   colorama.init()
@@ -18,6 +19,7 @@ except:
   def pyellow(s1): return s1
 
 #........1.........2.........3.........4.........5.........6.........7.........8
+## Wrapper around print() ... allows future modification (eg. verbose level)
 def my_print(s1):
   print(s1)
 

@@ -6,9 +6,9 @@ from setuptools import setup
 
 setup(
    name='pyMiniSupport',
-   version='1.0.4',
+   version='1.0.5',
    description='The module contains helper functions needed in my projects.',
    author='ldpgh',
    packages=['pyMiniSupport'],
-   test_suite="pyMiniSupport.tests.testLog.py"
+   test_suite="pyMiniSupport.Tests.testLog"
 )

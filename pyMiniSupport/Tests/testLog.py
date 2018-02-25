@@ -6,17 +6,15 @@ import unittest
 
 #........1.........2.........3.........4.........5.........6.........7.........8
 import pyMiniSupport 
+import pyMiniSupport.Log
 
 #........1.........2.........3.........4.........5.........6.........7.........8
 class TestLog(unittest.TestCase):
-  def test_warn(self):
-    pyMinitSupport.warn("test of pyMinitSupport.warn")
-    self.asserTrue(True)
   def runTest(self):
-    self.test_warn("asdfasdfasdf")
+    print(""); pyMiniSupport.Log.info("test of pyMiniSupport.info")
+    print(""); pyMiniSupport.Log.warn("test of pyMiniSupport.warn")
+    print(""); pyMiniSupport.Log.error("test of pyMiniSupport.error")
 
 suite=unittest.TestSuite()
-test=TestLog("runTest")
-suite.addTest(test)
-testrunner=unittest.TextTestRunner(verbosity=2)
-testrunner.rn(suite)
+suite.addTest(TestLog("runTest"))
+unittest.TextTestRunner(verbosity=2).run(suite)

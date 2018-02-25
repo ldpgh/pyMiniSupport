@@ -1,1 +1,2 @@
-from Log import *
+import Log
+import Tests
