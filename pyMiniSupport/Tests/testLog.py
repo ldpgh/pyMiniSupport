@@ -23,9 +23,9 @@ class TestLogShort(unittest.TestCase):
     print(""); info("test of pyMiniSupport.info")
     print(""); warn("test of pyMiniSupport.warn")
     print(""); error("test of pyMiniSupport.error")
-    print(""); print(pyMiniSupport.Log.prog_line())
-    print(""); print(pyMiniSupport.Log.prog_file())
-    print(""); print(pyMiniSupport.Log.prog_file_line())
+    print(""); print(prog_line())
+    print(""); print(prog_file())
+    print(""); print(prog_file_line())
 
 suite=unittest.TestSuite()
 suite.addTest(TestLog("runTest"))
