@@ -35,7 +35,6 @@ def prog_file_line(stack_depth=1):
 
 
 def info(arg, stack_depth=1, type="INFO", fcolor=pdefault):
-  print(arg, stack_depth, type, fcolor)
   my_print(
     fcolor(
       "%s  @  %s   %s" 
