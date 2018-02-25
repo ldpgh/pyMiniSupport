@@ -1,6 +1,7 @@
 # pyMiniSupport
 The module contains helper functions needed in my projects.
 
+<<<<<<< HEAD
 ## Install
 pip install git+https://github.com/ldpgh/pyMiniSupport.git
 
@@ -28,3 +29,9 @@ If the package 'colorama' is installed:
   info -> default color
   warn -> yellow
   error -> red
+=======
+<p style='color:red'>This is some red text.</p>
+<font color="red">This is some text!</font>
+These are <b style='color:red'>red words</b>.
+
+>>>>>>> 6a9c67b59ec30e5ac097a4c5b562315cffee12e6
