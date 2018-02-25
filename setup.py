@@ -9,6 +9,6 @@ setup(
    version='1.0.4',
    description='The module contains helper functions needed in my projects.',
    author='ldpgh',
-   packages=['pyMiniSupport']
+   packages=['pyMiniSupport'],
    test_suite="pyMiniSupport.tests.testLog.py"
 )
