@@ -21,6 +21,7 @@ according their meaning.
 * prog_file_line
 
 ## Use
+'
 >>> import pyMiniSupport
 >>> pyMiniSupport.warn("Falscher Fehler ist falsch.")
 WARNING  @  <module>:1   'Falscher Fehler ist falsch.'
@@ -28,3 +29,4 @@ WARNING  @  <module>:1   'Falscher Fehler ist falsch.'
 >>> from pyMiniSupport import *
 >>> error("Falscher Fehler ist falsch.")
 WARNING  @  <module>:1   'Falscher Fehler ist falsch.'
+'
