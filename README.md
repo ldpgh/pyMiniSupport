@@ -1,8 +1,9 @@
 # pyMiniSupport
 The module contains helper functions needed in my projects.
 
-## Install
-pip install git+https://github.com/ldpgh/pyMiniSupport.git
+## Install ... mit ODER ohne GIT
+pip install git+https://github.com/ldpgh/pyMiniSupport.git        oder
+python -m pip install https://github.com/ldpgh/pyMiniSupport/tarball/master
 
 ## Short description of the functions
 If the package colorama is installed the loggin functions are
