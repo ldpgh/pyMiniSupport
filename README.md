@@ -2,7 +2,7 @@
 The module contains helper functions needed in my projects.
 
 ## Install ... mit ODER ohne GIT
-- pip install git+https://github.com/ldpgh/pyMiniSupport.git     oder
+- pip install git+https://github.com/ldpgh/pyMiniSupport.git
 - python -m pip install https://github.com/ldpgh/pyMiniSupport/tarball/master
 
 ## Short description of the functions
